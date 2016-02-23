@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script src="starwars.js"></script>
+</head>
+
+<body ng-controller="MainCtrl">
+    <div class="container" style="backgound-color:black;">
+    <div class="row">
+        <div class="col-md-3">{{film.title}}</div>
+        <div class="col-md-3">{{film.opening_crawl}}</div>
+        <div class="col-md-3">{{film.director}}</div>
+        <div class="col-md-3">{{film.producer}}</div>
+    </div>
+    </div>
+</body>
+
+</html>
